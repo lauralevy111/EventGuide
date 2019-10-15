@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">EventGuide</string>
+    <string name="welcome_string">welcome to the app!</string>
+</resources>
