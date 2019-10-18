@@ -9,7 +9,6 @@
         xmlns:card_view="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        card_view:cardBackgroundColor="@color/color_white"
         card_view:cardCornerRadius="10dp"
         card_view:cardElevation="5dp"
         card_view:cardUseCompatPadding="true">
@@ -27,7 +26,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:src="@drawable/ic_launcher"/>
+                android:src="@drawable/hand_clouds_sketch"/>
 
             <LinearLayout
                 android:layout_width="0dp"
