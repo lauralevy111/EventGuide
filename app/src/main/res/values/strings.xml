@@ -7,4 +7,6 @@
 
     <string name="calendar_title">calendar</string>
     <string name="browse_title">browse events</string>
+
+    <string name="event_title">event page</string>
 </resources>
