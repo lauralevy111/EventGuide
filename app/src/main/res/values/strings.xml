@@ -6,4 +6,5 @@
     <string name="to_calendar_button">calendar</string>
 
     <string name="calendar_title">calendar</string>
+    <string name="browse_title">browse events</string>
 </resources>
