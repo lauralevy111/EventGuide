@@ -4,4 +4,6 @@
 
     <string name="to_browse_button">browse events</string>
     <string name="to_calendar_button">calendar</string>
+
+    <string name="calendar_title">calendar</string>
 </resources>
