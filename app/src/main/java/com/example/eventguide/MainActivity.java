@@ -22,12 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         toBrowseButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                /*Toast.makeText(getApplicationContext(),
-                        "FIRST BUTTON CLICKED",
-                        Toast.LENGTH_SHORT).show();*/
-
                 Intent intent = new Intent(getApplicationContext(), BrowseActivity.class);
-
 
                 startActivity(intent);
             }
@@ -35,12 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         toCalendarButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                /*Toast.makeText(getApplicationContext(),
-                        "FIRST BUTTON CLICKED",
-                        Toast.LENGTH_SHORT).show();*/
-
                 Intent intent = new Intent(getApplicationContext(), CalendarActivity.class);
-
 
                 startActivity(intent);
             }

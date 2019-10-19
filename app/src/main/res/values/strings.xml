@@ -9,4 +9,7 @@
     <string name="browse_title">browse events</string>
 
     <string name="event_title">event page</string>
+
+    <string name="text_view_name_text">textviewnametext welcome tex!</string>
+    <string name="golden_girls_description">I will watch this show until I die.</string>
 </resources>

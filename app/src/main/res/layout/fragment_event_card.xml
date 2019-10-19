@@ -4,14 +4,9 @@
     android:layout_height="match_parent"
     android:tag="cards main container">
 
-    <android.support.v7.widget.CardView
-        android:id="@+id/card_view"
-        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        card_view:cardCornerRadius="10dp"
-        card_view:cardElevation="5dp"
-        card_view:cardUseCompatPadding="true">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -26,7 +21,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:src="@drawable/hand_clouds_sketch"/>
+                android:src="@drawable/ic_launcher"
+                android:contentDescription="@string/golden_girls_description"/>
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -42,7 +38,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="10dp"
-                    android:text="Android Name"
+                    android:text="@string/text_view_name_text"
                     android:textAppearance="?android:attr/textAppearanceLarge"/>
 
                 <TextView
@@ -58,6 +54,8 @@
             </LinearLayout>
         </LinearLayout>
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
+
+
 
 </LinearLayout>
