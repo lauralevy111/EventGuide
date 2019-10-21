@@ -12,4 +12,8 @@
 
     <string name="text_view_name_text">textviewnametext welcome tex!</string>
     <string name="golden_girls_description">I will watch this show until I die.</string>
+
+    <string name="text_view_name">text view name</string>
+    <string name="text_view_version">text view version</string>
+
 </resources>
