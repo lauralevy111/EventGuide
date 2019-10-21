@@ -7,20 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="751638db-728c-41e8-82d8-5ad58de01e42" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/eventguide/EventActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/eventguide/EventActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_browse.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_browse.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_calendar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_calendar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_event.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_event.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_event_card.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_event_card.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +70,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eventguide/EventActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -115,12 +103,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
           <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="63" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
+            <state relative-caret-position="120">
+              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -128,18 +116,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+            <state relative-caret-position="270">
+              <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_event.xml">
-          <provider editor-type-id="android-designer2" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
+          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
               <folding>
                 <element signature="e#853#874#0" expanded="true" />
               </folding>
@@ -181,7 +169,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/eventguide/Event.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/eventguide/Admin.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/eventguide/User.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/eventguide/CalendarActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/eventguide/EventCardFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/eventguide/BrowseViewHolder.java" />
@@ -194,13 +181,14 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/eventguide/BrowseActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/eventguide/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/eventguide/BrowseAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_browse.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_calendar.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/eventguide/EventActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_event.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_event_card.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_event.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
       </list>
     </option>
   </component>
@@ -525,7 +513,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571490635227</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="* I added a constraint layout to activity_event.xml&#10;* and extended AppCompatActivity in EventActivity.java&#10;* theres nothing to send to this activity. yet.">
+      <created>1571624921461</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1571624921461</updated>
+    </task>
+    <task id="LOCAL-00011" summary="* added an imageview to activity_event, gotta see how to make this and the content description change to a diff drawable/string based on selected event">
+      <created>1571661445413</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1571661445413</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -539,6 +541,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" />
       <window_info id="Image Layers" order="1" />
@@ -579,7 +582,9 @@
     <MESSAGE value="Programming log from Friday October 18th 2019.&#10;I was home by 8 and spent the majority of the night programming. It was exhilarating.&#10;&#10;* Put code for a scrolling card view to BrowseActivity.java&#10;* created BrowserAdapter.java to do the creating and binding work of the app &#10;* created EventData.java to define the data &#10;* created EventDataModel.java to model the domain&#10;* Did minor refactoring on MainActivity.java&#10;* Created menu_browse.xml&#10;* Put code in fragment_event_card.xml&#10;* Put code in activity_browse.xml&#10;* Created dimens.xml, added two dimension values&#10;* Added color values and string values for layouts &#10;&#10; Followed this guide for most of it: https://www.journaldev.com/10024/android-recyclerview-android-cardview-example-tutorial" />
     <MESSAGE value="Programming log from Friday October 20th 2019.&#10;I was home by 8 last night and spent the majority of the night programming. It was exhilarating.&#10;&#10;* Put code for a scrolling card view to BrowseActivity.java&#10;* created BrowserAdapter.java to do the creating and binding work of the app &#10;* created EventData.java to define the data &#10;* created EventDataModel.java to model the domain&#10;* Did minor refactoring on MainActivity.java&#10;* Created menu_browse.xml&#10;* Put code in fragment_event_card.xml&#10;* Put code in activity_browse.xml&#10;* Created dimens.xml, added two dimension values&#10;* Added color values and string values for layouts &#10;&#10; Followed this guide for most of it: https://www.journaldev.com/10024/android-recyclerview-android-cardview-example-tutorial" />
     <MESSAGE value="Programming log from Saturday October 20th 2019.&#10;I was home by 8 last night and spent the majority of the night programming. It was exhilarating.&#10;&#10;* Put code for a scrolling card view to BrowseActivity.java&#10;* created BrowserAdapter.java to do the creating and binding work of the app &#10;* created EventData.java to define the data &#10;* created EventDataModel.java to model the domain&#10;* Did minor refactoring on MainActivity.java&#10;* Created menu_browse.xml&#10;* Put code in fragment_event_card.xml&#10;* Put code in activity_browse.xml&#10;* Created dimens.xml, added two dimension values&#10;* Added color values and string values for layouts &#10;&#10; Followed this guide for most of it: https://www.journaldev.com/10024/android-recyclerview-android-cardview-example-tutorial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Programming log from Saturday October 20th 2019.&#10;I was home by 8 last night and spent the majority of the night programming. It was exhilarating.&#10;&#10;* Put code for a scrolling card view to BrowseActivity.java&#10;* created BrowserAdapter.java to do the creating and binding work of the app &#10;* created EventData.java to define the data &#10;* created EventDataModel.java to model the domain&#10;* Did minor refactoring on MainActivity.java&#10;* Created menu_browse.xml&#10;* Put code in fragment_event_card.xml&#10;* Put code in activity_browse.xml&#10;* Created dimens.xml, added two dimension values&#10;* Added color values and string values for layouts &#10;&#10; Followed this guide for most of it: https://www.journaldev.com/10024/android-recyclerview-android-cardview-example-tutorial" />
+    <MESSAGE value="* I added a constraint layout to activity_event.xml&#10;* and extended AppCompatActivity in EventActivity.java&#10;* theres nothing to send to this activity. yet." />
+    <MESSAGE value="* added an imageview to activity_event, gotta see how to make this and the content description change to a diff drawable/string based on selected event" />
+    <option name="LAST_COMMIT_MESSAGE" value="* added an imageview to activity_event, gotta see how to make this and the content description change to a diff drawable/string based on selected event" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/settings.gradle">
@@ -740,36 +745,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="63" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_event.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
-          <folding>
-            <element signature="e#853#874#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -829,6 +808,32 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_event.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
+          <folding>
+            <element signature="e#853#874#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
         </state>
       </provider>
     </entry>
