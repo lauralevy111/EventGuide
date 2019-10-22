@@ -6,10 +6,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="751638db-728c-41e8-82d8-5ad58de01e42" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-    </list>
+    <list default="true" id="751638db-728c-41e8-82d8-5ad58de01e42" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -527,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571661445413</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="* activity_main.xml has a cute lil cloud background now uwu">
+      <created>1571661633819</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1571661633819</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView">
@@ -561,7 +565,7 @@
       <window_info anchor="bottom" id="Debug" order="6" />
       <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49499285" weight="0.32891566" />
       <window_info anchor="bottom" id="Android Profiler" order="8" />
-      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49356222" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49356222" weight="0.32891566" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Gradle" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -584,7 +588,8 @@
     <MESSAGE value="Programming log from Saturday October 20th 2019.&#10;I was home by 8 last night and spent the majority of the night programming. It was exhilarating.&#10;&#10;* Put code for a scrolling card view to BrowseActivity.java&#10;* created BrowserAdapter.java to do the creating and binding work of the app &#10;* created EventData.java to define the data &#10;* created EventDataModel.java to model the domain&#10;* Did minor refactoring on MainActivity.java&#10;* Created menu_browse.xml&#10;* Put code in fragment_event_card.xml&#10;* Put code in activity_browse.xml&#10;* Created dimens.xml, added two dimension values&#10;* Added color values and string values for layouts &#10;&#10; Followed this guide for most of it: https://www.journaldev.com/10024/android-recyclerview-android-cardview-example-tutorial" />
     <MESSAGE value="* I added a constraint layout to activity_event.xml&#10;* and extended AppCompatActivity in EventActivity.java&#10;* theres nothing to send to this activity. yet." />
     <MESSAGE value="* added an imageview to activity_event, gotta see how to make this and the content description change to a diff drawable/string based on selected event" />
-    <option name="LAST_COMMIT_MESSAGE" value="* added an imageview to activity_event, gotta see how to make this and the content description change to a diff drawable/string based on selected event" />
+    <MESSAGE value="* activity_main.xml has a cute lil cloud background now uwu" />
+    <option name="LAST_COMMIT_MESSAGE" value="* activity_main.xml has a cute lil cloud background now uwu" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/settings.gradle">
