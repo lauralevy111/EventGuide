@@ -12,6 +12,9 @@ public class MainActivity extends AppCompatActivity {
     public Button toBrowseButton;
     public Button toCalendarButton;
 
+    //for consuming events from meetup
+    private final String BASE_URL = "https://api.meetup.com/";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,6 +38,10 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
+
+
 
 
 
