@@ -4,6 +4,7 @@
 
     <string name="to_browse_button">browse events</string>
     <string name="to_calendar_button">calendar</string>
+    <string name="to_event_button">event</string>
 
     <string name="calendar_title">calendar</string>
     <string name="browse_title">browse events</string>
@@ -17,5 +18,7 @@
     <string name="text_view_version">text view version</string>
 
     <string name="event_image_description">this pastry was great</string>
+
+    <string name="toast_test_button_string">**TEST**</string>
 
 </resources>

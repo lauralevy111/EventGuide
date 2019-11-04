@@ -1,6 +1,7 @@
 package com.example.eventguide;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -25,7 +26,7 @@ public class BrowseActivity extends AppCompatActivity {
     private static RecyclerView recyclerView;
     private static ArrayList<EventDataModel> data;
     static View.OnClickListener myOnClickListener;
-    private static ArrayList<Integer> removedItems;
+    //private static ArrayList<Integer> removedItems;
 
 
     @Override
@@ -52,7 +53,7 @@ public class BrowseActivity extends AppCompatActivity {
             ));
         }
 
-        removedItems = new ArrayList<Integer>();
+        //removedItems = new ArrayList<Integer>();
 
         adapter = new BrowseAdapter(data);
         recyclerView.setAdapter(adapter);
@@ -68,10 +69,8 @@ public class BrowseActivity extends AppCompatActivity {
 
         @Override
         public void onClick(View v) {
-            removeItem(v);
-        }
+            //removeItem(v);
 
-        private void removeItem(View v) {
             int selectedItemPosition = recyclerView.getChildPosition(v);
             RecyclerView.ViewHolder viewHolder
                     = recyclerView.findViewHolderForPosition(selectedItemPosition);
@@ -84,10 +83,33 @@ public class BrowseActivity extends AppCompatActivity {
                     selectedItemId = EventData.id_[i];
                 }
             }
-            removedItems.add(selectedItemId);
-            data.remove(selectedItemPosition);
-            adapter.notifyItemRemoved(selectedItemPosition);
+
+            //this code sends to the selected Event's specific EventActivity.
+            Intent selectedActivityIntent = new Intent(context.getApplicationContext(), BrowseActivity.class);
+            selectedActivityIntent.putExtra( "selectedItemId", selectedItemId);
+            context.startActivity(selectedActivityIntent);
         }
+
+        /*private void removeItem(View v) {
+            int selectedItemPosition = recyclerView.getChildPosition(v);
+            RecyclerView.ViewHolder viewHolder
+                    = recyclerView.findViewHolderForPosition(selectedItemPosition);
+            TextView textViewName
+                    = (TextView) viewHolder.itemView.findViewById(R.id.textViewName);
+            String selectedName = (String) textViewName.getText();
+            int selectedItemId = -1;
+            for (int i = 0; i < EventData.nameArray.length; i++) {
+                if (selectedName.equals(EventData.nameArray[i])) {
+                    selectedItemId = EventData.id_[i];
+                }
+            }
+
+            //this code removes an item once its been selected
+            //removedItems.add(selectedItemId);
+            //data.remove(selectedItemPosition);
+            //adapter.notifyItemRemoved(selectedItemPosition);
+        }*/
+
     }
 
     @Override
@@ -102,16 +124,16 @@ public class BrowseActivity extends AppCompatActivity {
         super.onOptionsItemSelected(item);
         if (item.getItemId() == R.id.add_item) {
             //check if any items to add
-            if (removedItems.size() != 0) {
-                addRemovedItemToList();
-            } else {
+            //if (removedItems.size() != 0) {
+                //addRemovedItemToList();
+            //} else {
                 Toast.makeText(this, "Nothing to add", Toast.LENGTH_SHORT).show();
-            }
+            //}
         }
         return true;
     }
 
-    private void addRemovedItemToList() {
+    /*private void addRemovedItemToList() {
         int addItemAtListPosition = 3;
         data.add(addItemAtListPosition, new EventDataModel(
                 EventData.nameArray[removedItems.get(0)],
@@ -121,7 +143,7 @@ public class BrowseActivity extends AppCompatActivity {
         ));
         adapter.notifyItemInserted(addItemAtListPosition);
         removedItems.remove(0);
-    }
+    }*/
 
 
 }

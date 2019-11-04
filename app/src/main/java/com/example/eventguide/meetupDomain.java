@@ -7,6 +7,5 @@ public class meetupDomain {
     public meetupDomain(String sessionid){
         this.sessionid=sessionid;
 
-        int session= 1;
     }
 }
