@@ -85,7 +85,7 @@ public class BrowseActivity extends AppCompatActivity {
             }
 
             //this code sends to the selected Event's specific EventActivity.
-            Intent selectedActivityIntent = new Intent(context.getApplicationContext(), BrowseActivity.class);
+            Intent selectedActivityIntent = new Intent(context.getApplicationContext(), EventActivity.class);
             selectedActivityIntent.putExtra( "selectedItemId", selectedItemId);
             context.startActivity(selectedActivityIntent);
         }
