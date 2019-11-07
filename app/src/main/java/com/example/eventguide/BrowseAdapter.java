@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 public class BrowseAdapter extends RecyclerView.Adapter<BrowseAdapter.BrowseViewHolder> {
 
-    private ArrayList<EventDataModel> dataSet;
+    public ArrayList<EventDataModel> dataSet;
 
     public static class BrowseViewHolder extends RecyclerView.ViewHolder {
 
