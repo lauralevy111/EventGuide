@@ -19,6 +19,7 @@
 
     <string name="event_image_description">this pastry was great</string>
 
-    <string name="toast_test_button_string">**TEST**</string>
+    <string name="save_button_string">**TEST**</string>
+
 
 </resources>

@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -13,13 +12,10 @@ import java.util.ArrayList;
 
 public class EventActivity extends AppCompatActivity {
 
-    private Button toastTestButton;
+    private Button saveButton;
     public ImageView imageViewIcon;
 
     public ArrayList<EventDataModel> data;
-
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,15 +33,13 @@ public class EventActivity extends AppCompatActivity {
             ));
         }
 
-
         Intent intent = getIntent();
-        int selectedItemId = (int)intent.getExtras().get("selectedItemId");
+        final int selectedItemId = (int)intent.getExtras().get("selectedItemId");
         final String selectedItemIdString = "selected: "+selectedItemId+".";
 
         int listPosition = data.indexOf(selectedItemId)+1;
 
-
-        toastTestButton = findViewById(R.id.toastTestButton);
+        saveButton = findViewById(R.id.saveButton);
 
         ImageView imageView = findViewById(R.id.imageView2);
 
@@ -54,11 +48,10 @@ public class EventActivity extends AppCompatActivity {
             imageView.setImageResource(data.get(selectedItemId).getImage());
         }
 
-        toastTestButton.setOnClickListener(new View.OnClickListener() {
+        saveButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),
-                        selectedItemIdString,
-                        Toast.LENGTH_SHORT).show();
+                EventData.selectEvent(selectedItemId);
+
             }
         });
 
