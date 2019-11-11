@@ -19,6 +19,12 @@
         <activity android:name=".BrowseActivity"/>
         <activity android:name=".CalendarActivity"/>
         <activity android:name=".EventActivity"/>
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps">
+        </activity>
+
     </application>
 
 </manifest>

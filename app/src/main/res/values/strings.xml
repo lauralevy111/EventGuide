@@ -21,5 +21,7 @@
 
     <string name="save_button_string">**TEST**</string>
 
+    <string name = "title_activity_maps">welcome to the map!</string>
+
 
 </resources>
