@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
     public Button toBrowseButton;
     public Button toCalendarButton;
-    public Button toSelectedEventButton;
+    public Button toSavedEventButton;
 
     //for consuming events from meetup
     private final String BASE_URL = "https://api.meetup.com/";
@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         toBrowseButton = findViewById(R.id.toBrowseButton);
         toCalendarButton = findViewById(R.id.toCalendarButton);
-        toSelectedEventButton = findViewById(R.id.toSavedEventActivityButton);
+        toSavedEventButton = findViewById(R.id.toSavedEventActivityButton);
 
         toBrowseButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        toSelectedEventButton.setOnClickListener(new View.OnClickListener() {
+        toSavedEventButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent (getApplicationContext(), SavedEventActivity.class);
 
