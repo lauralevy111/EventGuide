@@ -23,5 +23,8 @@
 
     <string name = "title_activity_maps">welcome to the map!</string>
 
+    <string name = "to_saved_event_button">saved events</string>
+    <string name = "to_map_button">map activity this way!</string>
+
 
 </resources>
