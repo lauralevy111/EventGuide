@@ -57,11 +57,6 @@ public class MainActivity extends AppCompatActivity {
 
                 startActivity(intent);
 
-                //TODO: REMOVE :~)
-                //there once was a man named micheal finnegan
-                //he had whiskers on his chinnegan
-                //the wind blew them off but they grew in again
-                //poor old micheal finnegan
             }
         });
 

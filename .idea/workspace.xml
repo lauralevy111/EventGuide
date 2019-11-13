@@ -8,9 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="751638db-728c-41e8-82d8-5ad58de01e42" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/eventguide/EventActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/eventguide/EventActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_event.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_event.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/eventguide/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/eventguide/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +35,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.75678205">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eventguide/EventActivity.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="386">
@@ -52,18 +51,18 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-              <provider selected="true" editor-type-id="text-editor">
+              <provider editor-type-id="text-editor">
                 <state relative-caret-position="225">
-                  <caret line="50" column="61" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="61" />
+                  <caret line="51" column="61" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
                   <folding>
                     <element signature="e#1993#2024#0" expanded="true" />
                     <element signature="e#2458#2481#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
-              <provider editor-type-id="android-designer2" />
+              <provider selected="true" editor-type-id="android-designer2" />
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
@@ -103,8 +102,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eventguide/MainActivity.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="459">
-                  <caret line="57" column="38" lean-forward="true" selection-start-line="55" selection-start-column="16" selection-end-line="57" selection-end-column="38" />
+                <state relative-caret-position="609">
+                  <caret line="58" selection-start-line="58" selection-end-line="58" />
                   <folding>
                     <element signature="e#1229#1456#0" expanded="true" />
                     <element signature="e#1455#1456#0" expanded="true" />
@@ -231,11 +230,11 @@
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/eventguide/MapActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/eventguide/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_event.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/eventguide/EventActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/eventguide/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
       </list>
     </option>
   </component>
@@ -675,7 +674,21 @@
       <option name="project" value="LOCAL" />
       <updated>1573479972573</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary=" * created a button in eventActivity that sends to the map activity&#10; * in a future commit we'll send an extra with the intent to specify activity &amp; the map will show us the location of the event.">
+      <created>1573495623788</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1573495623788</updated>
+    </task>
+    <task id="LOCAL-00026" summary=" * ¯\_(ツ)_/¯&#10; * i am sorry.">
+      <created>1573562580421</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1573562580422</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView">
@@ -725,8 +738,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.sql" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="* created buttons to browse &amp; calendar activities on main&#10;* added many files &#10;* no listeners yet" />
-    <MESSAGE value="* created listeners that send to respective activities&#10;* added an onCreate to calendar &amp; browse activities. they're identical right now." />
     <MESSAGE value="broken commit im making the uis" />
     <MESSAGE value="fixed the ui, build not broken" />
     <MESSAGE value="*added title text View &amp; card view to activity_browse.xml" />
@@ -750,7 +761,9 @@
     <MESSAGE value=" * refactoring: renamed the toSavedEventButton" />
     <MESSAGE value="* now we have a MapActivity.java, activity_map.xml, its in the android manifest, and the build.gradle lines we need are there" />
     <MESSAGE value=" * created toMapButton in main activity which sends to MapActivity.java" />
-    <option name="LAST_COMMIT_MESSAGE" value=" * created toMapButton in main activity which sends to MapActivity.java" />
+    <MESSAGE value=" * created a button in eventActivity that sends to the map activity&#10; * in a future commit we'll send an extra with the intent to specify activity &amp; the map will show us the location of the event." />
+    <MESSAGE value=" * ¯\_(ツ)_/¯&#10; * i am sorry." />
+    <option name="LAST_COMMIT_MESSAGE" value=" * ¯\_(ツ)_/¯&#10; * i am sorry." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/settings.gradle">
@@ -995,18 +1008,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="50" column="61" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="61" />
-          <folding>
-            <element signature="e#1993#2024#0" expanded="true" />
-            <element signature="e#2458#2481#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eventguide/Event.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1035,10 +1036,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eventguide/EventActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1588#1738#0" expanded="true" />
+            <element signature="e#1737#1738#0" expanded="true" />
+            <element signature="e#1789#2079#0" expanded="true" />
+            <element signature="e#2078#2079#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eventguide/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="57" column="38" lean-forward="true" selection-start-line="55" selection-start-column="16" selection-end-line="57" selection-end-column="38" />
+        <state relative-caret-position="609">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
           <folding>
             <element signature="e#1229#1456#0" expanded="true" />
             <element signature="e#1455#1456#0" expanded="true" />
@@ -1050,16 +1065,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/eventguide/EventActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="51" column="61" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1588#1738#0" expanded="true" />
-            <element signature="e#1737#1738#0" expanded="true" />
-            <element signature="e#1789#2079#0" expanded="true" />
-            <element signature="e#2078#2079#0" expanded="true" />
+            <element signature="e#1993#2024#0" expanded="true" />
+            <element signature="e#2458#2481#0" expanded="true" />
           </folding>
         </state>
       </provider>
