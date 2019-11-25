@@ -29,33 +29,33 @@ public class MainActivity extends AppCompatActivity {
 
         toBrowseButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), BrowseActivity.class);
+                Intent browseintent = new Intent(getApplicationContext(), BrowseActivity.class);
 
-                startActivity(intent);
+                startActivity(browseintent);
             }
         });
 
         toCalendarButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), CalendarActivity.class);
+                Intent calendarintent = new Intent(getApplicationContext(), CalendarActivity.class);
 
-                startActivity(intent);
+                startActivity(calendarintent);
             }
         });
 
         toSavedEventButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent (getApplicationContext(), SavedEventActivity.class);
+                Intent savedEventIntent = new Intent (getApplicationContext(), SavedEventActivity.class);
 
-                startActivity(intent);
+                startActivity(savedEventIntent);
             }
         });
 
         toMapButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent (getApplicationContext(), MapActivity.class);
+                Intent mapIntent = new Intent (getApplicationContext(), MapActivity.class);
 
-                startActivity(intent);
+                startActivity(mapIntent);
 
             }
         });

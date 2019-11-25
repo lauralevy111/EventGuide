@@ -61,7 +61,7 @@ public class EventActivity extends AppCompatActivity {
         toMapButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent (getApplicationContext(), MapActivity.class);
-                //TODO: add extra with event id or maybe location.
+                intent.putExtra("selectedItemId", selectedItemId);
                 startActivity(intent);
             }
         });

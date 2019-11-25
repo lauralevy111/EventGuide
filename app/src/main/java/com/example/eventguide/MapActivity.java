@@ -2,6 +2,7 @@ package com.example.eventguide;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
 
 import androidx.fragment.app.FragmentActivity;
 
@@ -18,11 +19,23 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
 
     private GoogleMap mMap;
 
+    private Button testToastButton;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         this.intent =getIntent();
-        super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map);
+        super.onCreate(savedInstanceState);
+
+
+        //next two lines im getting the selected event from eventActivity.
+        Bundle extra= intent.getBundleExtra("selectedItemId");
+        final int eventId = (int)intent.getExtras().get("selectedItemId");
+
+//        //testToastButton = findViewById(R.id.testToastButton);
+//        Toast.makeText(this, "Nothing to add", Toast.LENGTH_SHORT).show();
+
+
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
