@@ -23,17 +23,19 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        this.intent =getIntent();
-        setContentView(R.layout.activity_map);
+        //this.intent =getIntent();
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_map);
 
-
+/*
         //next two lines im getting the selected event from eventActivity.
         Bundle extra= intent.getBundleExtra("selectedItemId");
         final int eventId = (int)intent.getExtras().get("selectedItemId");
 
 //        //testToastButton = findViewById(R.id.testToastButton);
 //        Toast.makeText(this, "Nothing to add", Toast.LENGTH_SHORT).show();
+
+ */
 
 
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
