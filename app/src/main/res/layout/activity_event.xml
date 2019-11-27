@@ -25,35 +25,35 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="40dp">
 
+                <TextView
+                    android:id="@+id/eventTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/event_title"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toTopOf="@+id/saveButton" />
+
                 <Button
                     android:id="@+id/saveButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/save_button_string"
-                    app:layout_constraintBottom_toTopOf="@+id/saveButton"
+                    app:layout_constraintBottom_toTopOf="@+id/toMapButton"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/eventTitle"
                     />
                 <Button
                     android:id="@+id/toMapButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/to_map_button"
-                    app:layout_constraintBottom_toTopOf="@+id/eventTitle"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/saveButton"/>
-
-                <TextView
-                    android:id="@+id/eventTitle"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/event_title"
                     app:layout_constraintBottom_toTopOf="@+id/imageView2"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/toMapButton" />
+                    app:layout_constraintTop_toBottomOf="@+id/saveButton"/>
 
                 <ImageView
                     android:id="@+id/imageView2"
@@ -64,7 +64,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/eventTitle" />
+                    app:layout_constraintTop_toBottomOf="@+id/toMapButton" />
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
     </ScrollView>

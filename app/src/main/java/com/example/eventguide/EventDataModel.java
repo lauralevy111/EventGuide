@@ -25,6 +25,7 @@ public class EventDataModel {
     public int getImage() {
         return image;
     }
+
     public int getId() {
         return id_;
     }
