@@ -35,6 +35,17 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintBottom_toTopOf="@+id/saveButton" />
 
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/event_image_description"
+                    app:layout_constraintBottom_toBottomOf="@+id/saveButton"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/eventTitle"
+                    app:srcCompat="@drawable/best_pastry_thing" />
+
                 <Button
                     android:id="@+id/saveButton"
                     android:layout_width="match_parent"
@@ -43,28 +54,18 @@
                     app:layout_constraintBottom_toTopOf="@+id/toMapButton"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/eventTitle"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView2"
                     />
                 <Button
                     android:id="@+id/toMapButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/to_map_button"
-                    app:layout_constraintBottom_toTopOf="@+id/imageView2"
+                    app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/saveButton"/>
 
-                <ImageView
-                    android:id="@+id/imageView2"
-                    android:contentDescription="@string/event_image_description"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/best_pastry_thing"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/toMapButton" />
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
     </ScrollView>
