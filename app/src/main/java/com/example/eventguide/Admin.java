@@ -4,8 +4,8 @@ public class Admin extends User{
 
     private String classification;
 
-    public Admin (String userName, String emailAddress, String classification){
-        super(userName, emailAddress);
+    public Admin (String userName, String emailAddress, String phoneNumber, String classification){
+        super(userName, emailAddress, phoneNumber);
         this.classification=classification;
     }
 
