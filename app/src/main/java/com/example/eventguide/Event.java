@@ -19,6 +19,9 @@ public class Event {
         happeningNow = true;
 
     }
+    public void stop(){
+        happeningNow = false;
+    }
 
 
 }
