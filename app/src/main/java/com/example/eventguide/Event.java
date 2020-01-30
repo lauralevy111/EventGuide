@@ -9,8 +9,16 @@ public class Event {
     public String name;
     public Admin organizer;
 
+    private boolean happeningNow =false;
+
     public Event (Date when){
         this.when=when;
     }
+
+    public void start(){
+        happeningNow = true;
+
+    }
+
 
 }
